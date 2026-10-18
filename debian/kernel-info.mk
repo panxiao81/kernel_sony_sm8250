@@ -145,7 +145,7 @@ FLASH_IS_LEGACY_DEVICE = 0
 FLASH_INFO_CPU = Qualcomm Technologies, Inc KONA
 
 # Space-separated list of supported device ids as reported by fastboot
-FLASH_INFO_DEVICE_IDS = SO-52A XQ-AS52 XQ-AS62 XQ-AS72 A002SO SOG02
+FLASH_INFO_DEVICE_IDS = XQ-AS42 SO-52A XQ-AS52 XQ-AS62 XQ-AS72 A002SO SOG02
 
 ########################################################################
 # Kernel build settings
