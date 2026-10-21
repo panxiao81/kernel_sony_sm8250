@@ -26,6 +26,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # releng-build-package takes the version from the nearest droidian/* tag
     - name: Make output dir
       run: mkdir -pv /tmp/results
     - name: Build packages in the container
